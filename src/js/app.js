@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 30,
+        "value": 45,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 850
         }
       },
       "color": {
