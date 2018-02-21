@@ -77,8 +77,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "window",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "grab"
+          "enable": true,
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
