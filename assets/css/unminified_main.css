@@ -5019,7 +5019,8 @@ sup {
 
 @media only screen and (min-width:550px) {
     #skills {
-        width: 80%
+        width: 80%;
+        height: 50%
     }
 }
 
