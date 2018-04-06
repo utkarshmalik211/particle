@@ -11,6 +11,8 @@
     <script>
     document.addEventListener("DOMContentLoaded", function () {
         var ctx = document.getElementById("{{ site.data.skills.id }}");
+        ctx.style.width = "50%";
+        ctx.style.height = "50%";
         var data = {
             labels: "{{ site.data.skills.aspects }}".split(","),
             datasets: [{
